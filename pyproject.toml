@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "development"
+version = "0.1.0"
+description = ""
+authors = ["Arthur-king18 <arturik060406@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "2.25.2"
+fastapi = "^0.103.2"
+sqlalchemy = "^2.0.21"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
